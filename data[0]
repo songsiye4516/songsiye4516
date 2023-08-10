@@ -1,0 +1,4 @@
+L.data[0]=L.data[L.length-0-1]=L.data[7-1-0]=L.data[6]
+        */
+        L.data[i]=L.data[L.length-i-1];
+        L.data[L.length-i-1]=x;
