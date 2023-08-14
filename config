@@ -1,0 +1,8 @@
+throws ULjException
+    {
+        Configuration config = DatabaseManager.createConfigurationFile( "Sales.ulj" );
+        Connection conn = DatabaseManager.createDatabase( config );
+
+        conn.schemaCreateBegin();
+
+        TableSchema table_schema = conn.createTable( "Product" );
