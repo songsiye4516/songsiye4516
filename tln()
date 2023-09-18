@@ -1,0 +1,6 @@
+System.out.println("providerURL="+s.getProviderURL()); 
+      System.out.println("topicName="+s.getTopicName()); 
+ 
+      System.out.println(); 
+      System.out.println("Running for ten minutes..."); 
+      Thread.sleep(600000); 
